@@ -1,0 +1,27 @@
+{
+  "name": "relab-server",
+  "version": "1.0.0",
+  "description": "katmai",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mssql": "^6.2.0",
+    "nodemon": "^2.0.3",
+    "proj4": "^2.6.1",
+    "wellknown": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianFulga99/ServerNodeEMSSQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianFulga99/ServerNodeEMSSQL/issues"
+  },
+  "homepage": "https://github.com/CristianFulga99/ServerNodeEMSSQL#readme"
+}

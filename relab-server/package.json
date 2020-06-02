@@ -1,11 +1,13 @@
 {
-  "name": "relab-server",
+  "name": "03-nodeserver",
   "version": "1.0.0",
-  "description": "katmai",
-  "main": "app.js",
+  "description": "server per recuperare dati spaziali da MSSQL progetto PCTO Relab",
+  "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "test"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -13,15 +15,5 @@
     "nodemon": "^2.0.3",
     "proj4": "^2.6.1",
     "wellknown": "^0.5.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CristianFulga99/ServerNodeEMSSQL.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CristianFulga99/ServerNodeEMSSQL/issues"
-  },
-  "homepage": "https://github.com/CristianFulga99/ServerNodeEMSSQL#readme"
+  }
 }

@@ -12,20 +12,20 @@ describe('AppComponent', () => {
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
+    const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'relab-client'`, () => {
+  it(`should have as title 'ang-maps'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('relab-client');
+    const app = fixture.debugElement.componentInstance;
+    expect(app.title).toEqual('ang-maps');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('relab-client app is running!');
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('.content span').textContent).toContain('ang-maps app is running!');
   });
 });
