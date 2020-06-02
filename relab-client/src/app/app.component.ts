@@ -168,22 +168,5 @@ avgColorMap = (media) =>
     if(1948 < media && media <= 3780) return "#FF0000";
     return "#FF0000"
   }
-  //mappa scala di verdi
-  avgColorMapGreen = (media) =>
-  {
-    if(media <= 36) return "#EBECDF";
-    if(36 < media && media <= 40) return "#DADFC9";
-    if(40 < media && media <= 58) return "#C5D2B4";
-    if(58 < media && media <= 70) return "#ADC49F";
-    if(75 < media && media <= 84) return "#93B68B";
-    if(84 < media && media <= 100) return "#77A876";
-    if(100 < media && media <= 116) return "#629A6C";
-    if(116 < media && media <= 1032) return "#558869";
-    if(1032 < media && media <= 1068) return "#487563";
-    if(1068 < media && media <= 1948) return "#3B625B";
-    if(1948 < media && media <= 3780) return "#2F4E4F";
-    return "#003000" //Quasi nero
-  }
-
 }
 
